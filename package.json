@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "name": "text-rain-animation",
+  "description": "Practice repository with JavaScript, CSS, &amp; HTML",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
