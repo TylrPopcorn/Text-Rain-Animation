@@ -10,5 +10,22 @@
     <div class="container">
       <div class="cloud"></div>
     </div>
+    <script>function rain() {
+  var cloud = document.querySelector(".cloud");
+  var e = document.createElement("div");
+  var left = Math.floor(Math.random() * 320);
+  var size = Math.random() * 1.5;
+  e.classList.add("text");
+  cloud.appendChild(e);
+  e.innerText = "z";
+  e.style.left = left + "px";
+  e.style.fontSize = 0.5 + size + "em";
+  setTimeout(function () {
+    cloud.removeChild(e);
+  }, 2000);
+}
+setInterval(function () {
+  rain();
+}, 20);</script>
   </body>
 </html>

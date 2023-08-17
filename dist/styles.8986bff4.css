@@ -51,5 +51,15 @@ body {
   box-shadow: 90px 0 0 30px #fff;
 }
 
+.text {
+  position: absolute;
+  height: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000;
+  text-shadow: 0 0 5x #fff, 0 0 15px #fff, 0 0 30px #fff;
+  transform-origin: bottom;
+}
+
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
