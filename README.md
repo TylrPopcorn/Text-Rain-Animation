@@ -5,3 +5,6 @@ This repository shares examples on how to use techniques in JavaScript, HTML, an
 
 
 Followed and learned here: https://www.youtube.com/watch?v=OfSlkvtCeaI
+
+# Related Projects
+-  [Projects List](https://github.com/TylrPopcorn/Projects-List) - *Explore other projects I have worked on*
